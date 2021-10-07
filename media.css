@@ -1,0 +1,22 @@
+/*Стили для маленьких экранов дисплэй максимум 575px*/
+@media (max-width: 575px) {
+	.menu{
+		position: inherit;
+	}
+	.menu a{
+		width: 100%;
+		padding: 20px 0;
+	}
+	.header{
+		padding: 100px 10px;
+		background-size: cover;
+		background-position: center center;
+		min-width: 30px;
+	}
+	.member{
+		width: 80%;
+	}
+	.contacts p{
+		margin: 10px 0;
+	}
+}
